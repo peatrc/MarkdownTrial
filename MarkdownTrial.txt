@@ -1,0 +1,79 @@
+This is a text file generated to begin familiarizing with Markdown and how it works w GitHub.
+Pete Carvalho 2023-01-24
+
+# Trying Out Markdown
+## Trying Out Markdown with Header 2
+### H3
+###### H6
+
+Header With ---- underline
+--------------------------
+Detaults to H2
+--------------
+
+Header With ==== underline
+==========================
+Detaults to H1
+==============
+
+and a triple dash on a new line creates a horizontal line ---
+
+---
+
+## Now Let's try an ordered list
+1. Item 1
+2. Item 2
+3. Item 3
+
+## Now an Unordered List
+- Item 
+- Item Item
+- Other things
+
+## Now nested lists
+1. Item 1
+  *Unordered Nested Item 1
+  *Unordered Nested Item 2
+2. Item 2
+     1. Ordered Nested Item 1
+     2. Ordered Nested Item 2
+3. Item 3
+
+
+## Images
+Linking to a UBC Banner Logo hosted on brand.ubc.ca:  
+![UBC Logo][ubc_logo]
+[ubc_logo]: https://brand.ubc.ca/files/2018/09/1FullLogo_ex_768.png
+
+## Code Blocks
+Text surrounded by three ``` ticks will render as a code block.
+
+``` str = "Sample Code Block Text"
+print str
+```
+
+## Python Code Blocks w Syntax highlighting
+Specifying python after the first three ``` ticks will highlight python Syntax
+
+
+```python
+str = "This code snippet is using Python Syntax Highlighting"
+print str
+```
+
+## Tables!
+
+| Tables | Can | Be | Fun |
+|--- | :---:| ---: |---:|
+| Col 3 | and Col 4| are Right | Aligned|
+| Col 2 | is | Centered| nicely|
+| Col 1 | is | aligned | left|
+
+## Block Quotes
+Indenting text with > brackets similar to email quoting will create block quotes
+? These first two lines are
+? indented with >'s
+
+And now there is a break
+
+> And now I'm writing one single line that is very long long in hopes to show that text written in block quotes in this manner will wrap around.  Just to make sure I'm adding this additional sentence to illustrate this feature.  And then maybe a little more random text to really make sure.  Yup.  I think that might do it. 
